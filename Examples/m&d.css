@@ -1,0 +1,58 @@
+:root {
+  --background: #ffffff;
+  --headline: #020826;
+  --sub-headline: #716040;
+  --card-background: #eaddcf;
+  --card-heading: #020826;
+  --card-paragraph: #716040;
+
+  /* Icons */
+  --icon-stroke: #020826;
+  --icon-main: #ffffff;
+  --icon-highlight: #8c7851;
+  --icon-secondary: #eaddcf;
+  --icon-tertiary: #f25042;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--background);
+  
+  
+}
+p{
+  font-size: 20px;
+  color: var( --sub-headline);
+  font-weight: 500;
+
+}
+#firstNumber
+{
+  margin-top: 420px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  
+}
+#firstNumber:hover , #secondNumber:hover
+{
+ background-color: #020826;
+ color: #ffffff;
+}
+#secondNumber
+{
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+#btn-1 , #btn-2
+{
+  background-color: var(--card-background);
+  color:var(--card-heading);
+  text-align: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
