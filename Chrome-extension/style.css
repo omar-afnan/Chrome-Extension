@@ -1,0 +1,94 @@
+:root
+{
+  --background:#55423d;
+   --button-color:#ffc0ad;
+   --button-text-color:#271c19;
+  --paragraph:#fff3ec;
+   --headlines:#fffffe;
+   --stroke:#140d0b;
+   --highlight:#e78fb3;
+   --tertiary:#9656a1;
+   --secondary:#ffc0ad;
+   --main:#fff3ec;
+}
+
+body 
+{
+  margin:0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color: var(--background);
+ min-width: 400px;
+}
+
+
+/*
+
+Style our app according to the provided design!
+
+
+*/
+
+input 
+{
+  width:100%; /* takes all the space in the container */
+  padding: 10px;
+  box-sizing: border-box;
+  color: var(--tertiary);
+  border-radius: 5px;
+  border:2.5px solid black;
+  margin-bottom: 5px;
+}
+
+button
+{
+  background-color:var(--button-color);
+  color: var(--button-text-color);
+  font-size: 15px;
+   border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border:1px solid black;
+
+}
+
+/* STYLE THE LIST ACCORDING TO THE DESIGN */
+ul {
+    list-style:none;
+    padding-left: 0;
+
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+  color:var(--tertiary);
+  text-decoration: none;
+
+}
+
+a:hover
+{
+  text-decoration: hover;
+  color:var(--highlight);
+}
+#del-button
+{
+  background-color:var(--button-color);
+  color: var(--button-text-color);
+  font-size: 15px;
+   border-radius: 5px;
+   border:1px solid black;
+}
+#tab-btn
+{
+  background-color:var(--button-color);
+  color: var(--button-text-color);
+  font-size: 15px;
+   border-radius: 5px;
+   border:1px solid black;
+}
